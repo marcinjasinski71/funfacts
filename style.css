@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	background-color: #0cbaba;
+	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	min-height: 200px;
+	padding: 30px;
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.918);
+}
+
+.current-day {
+	color: #691272;
+}
+
+.fun-fact {
+	margin-top: 20px;
+	font-size: 1.2rem;
+}
